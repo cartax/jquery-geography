@@ -11,11 +11,37 @@ o
 `-- README.md
 ```
 
+
 ## Installation   
 ```
 <script src="jquery.js"></script>
 <script src="jquery-geography-google.min.js"></script>
 ```
+
+
+## Options   
+```
+| map       | feature   | property              | type      | value                                                         |
+|--------   |---------  |-------------------    |---------  |-------------------------------------------------------------  |
+| google    | api       | uri                   | string    | 'https://maps.googleapis.com/maps/api/js'                     |
+| google    | api       | key                   | string    | ''                                                            |
+| google    | api       | language              | string    | 'en'                                                          |
+| google    | api       | region                | string    | 'AU'                                                          |
+| google    | map       | lat                   | number    | -34.397                                                       |
+| google    | map       | lng                   | number    | 150.644                                                       |
+| google    | map       | zoom                  | number    | 8                                                             |
+| google    | map       | icon                  | string    | '/path/marker.png'                                            |
+| google    | map       | draggable             | boolean   | true                                                          |
+| google    | map       | scrollwheel           | boolean   | false                                                         |
+| google    | map       | styleWizard           | string    | 'standard', 'silver', 'retro', 'dark', 'night', 'aubergine'   |
+| google    | map       | zoomControl           | boolean   | true                                                          |
+| google    | map       | mapTypeControl        | boolean   | false                                                         |
+| google    | map       | scaleControl          | boolean   | false                                                         |
+| google    | map       | streetViewControl     | boolean   | false                                                         |
+| google    | map       | rotateControl         | boolean   | false                                                         |
+| google    | map       | fullscreenControl     | boolean   | false                                                         |
+```
+
 
 ## Usage   
 ```
@@ -73,6 +99,7 @@ $('.map-google').geography({
     $('.map-google').geography();
 </script>
 ```
+
 
 ## Changelog   
 Please see [CHANGELOG](CHANGELOG) for more information what has changed recently.
