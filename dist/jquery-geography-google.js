@@ -1,9 +1,9 @@
 /*
- * jQuery Geography
+ * jQuery Geography Google
  * 
- * Description: google map for maps javascript api
+ * Description: google map for javascript api
  * Plugin URL: https://github.com/krescentmoon/jquery-geography
- * Plugin Version: 1.0.0
+ * Plugin Version: 1.0.1
  * Author: Krescentmoon
  * Author URL: https://krescentmoon.com
  * Dependency: jQuery
@@ -19,7 +19,7 @@
 
             // the added first parameter of TRUE to signify a DEEP COPY:
             var settings = $.extend( true, {}, {
-                used: 'google', // google, naver, daum
+                used: 'google',
                 google: {
                     api: {
                         uri: 'https://maps.googleapis.com/maps/api/js',
