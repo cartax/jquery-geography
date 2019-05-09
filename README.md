@@ -1,5 +1,9 @@
 # jQuery Geography   
 
+## Demo   
+[Demo](https://krescentmoon.github.io/jquery-geography/)   
+
+
 ## Structure   
 ```
 o
@@ -30,10 +34,10 @@ o
 | google    | map       | lat                   | number    | -34.397                                                       |
 | google    | map       | lng                   | number    | 150.644                                                       |
 | google    | map       | zoom                  | number    | 8                                                             |
-| google    | map       | icon                  | string    | '/path/marker.png'                                            |
+| google    | map       | icon                  | string    | ''                                                            |
 | google    | map       | draggable             | boolean   | true                                                          |
 | google    | map       | scrollwheel           | boolean   | false                                                         |
-| google    | map       | styleWizard           | string    | 'standard', 'silver', 'retro', 'dark', 'night', 'aubergine'   |
+| google    | map       | styleWizard           | string    | 'standard','silver','retro','dark','night','aubergine'        |
 | google    | map       | zoomControl           | boolean   | true                                                          |
 | google    | map       | mapTypeControl        | boolean   | false                                                         |
 | google    | map       | scaleControl          | boolean   | false                                                         |
@@ -89,7 +93,7 @@ $('.map-google').geography({
     <div class="map-content">
         <div class="map-initialize" style="background-image: url(assets/img/map/map-retro.jpg);"></div>
         <div class="map-responsive">
-            <div class="map map-google" data-geography-google='{"lat":-34.397,"lng":150.644,"zoom":12,"styleWizard":"retro"}'></div>
+            <div class="map map-google" data-geography-google='{"lat":-34.397,"lng":150.644,"icon":"","styleWizard":"retro"}'></div>
         </div>
     </div>
 </section>
