@@ -89,7 +89,7 @@ $('.map-google').geography({
     <div class="map-content">
         <div class="map-initialize" style="background-image: url(assets/img/map/map-retro.jpg);"></div>
         <div class="map-responsive">
-            <div class="map map-google" data-geography-google='{"zoom":12,"styleWizard":"retro"}'></div>
+            <div class="map map-google" data-geography-google='{"lat":-34.397,"lng":150.644,"zoom":12,"styleWizard":"retro"}'></div>
         </div>
     </div>
 </section>

@@ -5,3 +5,6 @@ initial release
 
 ## v1.0.1   
 Add description and options in the readme.md
+
+## v1.1.0   
+Add new property lat and lng

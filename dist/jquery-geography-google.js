@@ -3,7 +3,7 @@
  * 
  * Description: google map for javascript api
  * Plugin URL: https://github.com/krescentmoon/jquery-geography
- * Plugin Version: 1.0.1
+ * Plugin Version: 1.1.0
  * Author: Krescentmoon
  * Author URL: https://krescentmoon.com
  * Dependency: jQuery
@@ -28,12 +28,14 @@
                         region: 'AU'
                     },
                     map: {
-                        center: { lat: -34.397, lng: 150.644 },
+                        lat: -34.397,             // (number)
+                        lng: 150.644,             // (number)
+                        center: {},               // (number)
                         zoom: 8,                  // (number)
-                        icon: '',                 // (string) /path/marker.png
+                        icon: '',                 // (string) '/path/marker.png'
                         draggable: true,          // (boolean)
                         scrollwheel: false,       // (boolean)
-                        styleWizard: 'standard',  // (string) standard, silver, retro, dark, night, aubergine
+                        styleWizard: 'standard',  // (string) 'standard','silver','retro','dark','night','aubergine'
                         zoomControl: true,        // (boolean)
                         mapTypeControl: false,    // (boolean)
                         scaleControl: false,      // (boolean)
@@ -83,6 +85,10 @@
 
         // Merging data-attribute and settings
         var opts = $.extend( true, {}, settings, $element.data('geography-google') );
+
+        // coordinate
+        opts.center.lat = opts.lat;
+        opts.center.lng = opts.lng;
 
         // style wizard
         opts.styles = google_wizard( opts.styleWizard.toLowerCase() );
