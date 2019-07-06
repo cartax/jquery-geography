@@ -1,7 +1,12 @@
 # jQuery Geography   
 
+
 ## Demo   
-[Demo](https://krescentmoon.github.io/jquery-geography/)   
+<https://krescentmoon.github.io/jquery-geography/>   
+
+
+## Github   
+<https://github.com/krescentmoon/jquery-geography/>   
 
 
 ## Structure   
@@ -105,8 +110,12 @@ $('.map-google').geography({
 ```
 
 
+## Browser Support   
+IE9+, Edge, Chrome, Firefox, Opera, Safari   
+
+
 ## Changelog   
-Please see [CHANGELOG](CHANGELOG) for more information what has changed recently.
+Please see [CHANGELOG](CHANGELOG) for more information what has changed recently.   
 
 
 ## License   

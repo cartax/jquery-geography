@@ -1,13 +1,16 @@
 # CHANGELOG   
 
-## v1.0.0   
+## 1.0.0   
 initial release   
 
-## v1.0.1   
+## 1.0.1   
 Add description and options in the readme.md
 
-## v1.1.0   
+## 1.1.0   
 Add new property lat and lng
 
-## v1.1.1   
+## 1.1.1   
 Add demo page url   
+
+## 1.1.2
+Edit typo in the readme.md   
